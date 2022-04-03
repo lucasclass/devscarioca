@@ -91,11 +91,39 @@ img{
 }
 
 /* Perfis */
+.profile{
+    position: relative;
+    padding-top: 1.5rem;
+}
 
-/* Base */
+.profile__container{
+    row-gap: 2rem;
+}
 
-/* Base */
+.profile__data{
+    display: grid;
+    text-align: center;
+}
 
-/* Base */
+.profile__perfil{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(180deg, hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
+                                        hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-items: center;
+}
 
-/* Base */
+.profile__perfil img{
+    width: 75px;
+}
+/* Botões */
+
+/* Filtro tabs */
+
+/* Projetos */
+
+/* Habilidades */
