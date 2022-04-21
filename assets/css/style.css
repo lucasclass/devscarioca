@@ -395,7 +395,7 @@ body.dark-theme{
     display: none;
 }
 
-.filters__active[data-content] {
+.filters__active[data-content]{
     display: grid;
 }
 
