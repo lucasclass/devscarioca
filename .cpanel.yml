@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/devscari/public_html/devscarioca
-    - /bin/cp -R * $DEPLOYPATH

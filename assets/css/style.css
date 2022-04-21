@@ -10,12 +10,12 @@
     Vermelho: hsl(0, 100%, 35%);
     */
 
-    --hue: 0;
-    --sat: 100%;
-    --lig: 35%;
+    --hue: 5;
+    --sat: 90%;
+    --lig: 40%;
 
     --first-color: hsl(var(--hue), var(--sat), var(--lig));
-    --first-color-alt: hsl(var(--hue), var(--sat), 57%);
+    --first-color-alt: hsl(var(--hue), var(--sat), 60%);
     --title-color: hsl(var(--hue), 12% ,15%);
     --text-color: hsl(var(--hue), 12%, 45%);
     --text-color-light: hsl(var(--hue), 8%, 75%);
@@ -459,7 +459,7 @@ body.dark-theme{
     }
 }
 
-@media screen and(min-width: 776px){
+@media screen and (min-width: 776px){
     .projects__content, .skill__content{
         grid-template-columns: repeat(2, 332px);
     }
